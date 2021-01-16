@@ -1,0 +1,245 @@
+{
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "glob",
+        "value": "components/chatroom/chatroom.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/addFunction/addFunction.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/chooseLib/chooseLib.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/databaseGuide/databaseGuide.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/deployFunctions/deployFunctions.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/im/im.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/im/room/room.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/openapi/callback/callback.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/openapi/cloudid/cloudid.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/openapi/openapi.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/openapi/serverapi/serverapi.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/storageConsole/storageConsole.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "glob",
+        "value": "pages/userConsole/userConsole.@(js|json|wxml|wxss)"
+      },
+      {
+        "type": "file",
+        "value": "style/guide.wxss"
+      }
+    ]
+  },
+  "dependencies": {
+    "app": {
+      "esDeps": [
+        "app.js"
+      ],
+      "wxmlDeps": [],
+      "wxssDeps": [
+        "app.wxss"
+      ],
+      "compDeps": [],
+      "wxsDeps": [],
+      "jsonDeps": [
+        "app.json"
+      ],
+      "files": [
+        "app.js",
+        "app.json",
+        "app.wxss"
+      ]
+    },
+    "pages": {
+      "pages/index/index": {
+        "esDeps": [
+          "pages/index/index.js"
+        ],
+        "wxmlDeps": [
+          "pages/index/index.wxml"
+        ],
+        "wxssDeps": [
+          "pages/index/index.wxss"
+        ],
+        "compDeps": [],
+        "wxsDeps": [],
+        "jsonDeps": [
+          "pages/index/index.json"
+        ],
+        "files": [
+          "pages/index/index.js",
+          "pages/index/index.json",
+          "pages/index/index.wxml",
+          "pages/index/index.wxss"
+        ]
+      }
+    },
+    "subpackages": {}
+  },
+  "unusedFiles": [
+    "components/chatroom/chatroom.js",
+    "components/chatroom/chatroom.json",
+    "components/chatroom/chatroom.wxml",
+    "components/chatroom/chatroom.wxss",
+    "pages/addFunction/addFunction.js",
+    "pages/addFunction/addFunction.json",
+    "pages/addFunction/addFunction.wxml",
+    "pages/addFunction/addFunction.wxss",
+    "pages/chooseLib/chooseLib.js",
+    "pages/chooseLib/chooseLib.json",
+    "pages/chooseLib/chooseLib.wxml",
+    "pages/chooseLib/chooseLib.wxss",
+    "pages/databaseGuide/databaseGuide.js",
+    "pages/databaseGuide/databaseGuide.json",
+    "pages/databaseGuide/databaseGuide.wxml",
+    "pages/databaseGuide/databaseGuide.wxss",
+    "pages/deployFunctions/deployFunctions.js",
+    "pages/deployFunctions/deployFunctions.json",
+    "pages/deployFunctions/deployFunctions.wxml",
+    "pages/deployFunctions/deployFunctions.wxss",
+    "pages/im/im.js",
+    "pages/im/im.json",
+    "pages/im/im.wxml",
+    "pages/im/im.wxss",
+    "pages/im/room/room.js",
+    "pages/im/room/room.json",
+    "pages/im/room/room.wxml",
+    "pages/im/room/room.wxss",
+    "pages/openapi/callback/callback.js",
+    "pages/openapi/callback/callback.json",
+    "pages/openapi/callback/callback.wxml",
+    "pages/openapi/callback/callback.wxss",
+    "pages/openapi/cloudid/cloudid.js",
+    "pages/openapi/cloudid/cloudid.json",
+    "pages/openapi/cloudid/cloudid.wxml",
+    "pages/openapi/cloudid/cloudid.wxss",
+    "pages/openapi/openapi.js",
+    "pages/openapi/openapi.json",
+    "pages/openapi/openapi.wxml",
+    "pages/openapi/openapi.wxss",
+    "pages/openapi/serverapi/serverapi.js",
+    "pages/openapi/serverapi/serverapi.json",
+    "pages/openapi/serverapi/serverapi.wxml",
+    "pages/openapi/serverapi/serverapi.wxss",
+    "pages/storageConsole/storageConsole.js",
+    "pages/storageConsole/storageConsole.json",
+    "pages/storageConsole/storageConsole.wxml",
+    "pages/storageConsole/storageConsole.wxss",
+    "pages/userConsole/userConsole.js",
+    "pages/userConsole/userConsole.json",
+    "pages/userConsole/userConsole.wxml",
+    "pages/userConsole/userConsole.wxss",
+    "style/guide.wxss"
+  ],
+  "data": {
+    "app": {
+      "name": "app",
+      "size": 3.35,
+      "children": [
+        {
+          "name": "pages",
+          "size": 3.35,
+          "children": [
+            {
+              "name": "app.wxss",
+              "size": 2.44,
+              "absolutePath": "app.wxss"
+            },
+            {
+              "name": "app.js",
+              "size": 0.59,
+              "absolutePath": "app.js"
+            },
+            {
+              "name": "app.json",
+              "size": 0.32,
+              "absolutePath": "app.json"
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "size": 0,
+          "children": []
+        }
+      ]
+    },
+    "pages": {
+      "name": "pages",
+      "size": 6.8,
+      "children": [
+        {
+          "name": "pages/index/index",
+          "size": 6.8,
+          "children": [
+            {
+              "name": "pages",
+              "size": 6.8,
+              "children": [
+                {
+                  "name": "index.js",
+                  "size": 2.75,
+                  "absolutePath": "pages/index/index.js"
+                },
+                {
+                  "name": "index.wxss",
+                  "size": 2.42,
+                  "absolutePath": "pages/index/index.wxss"
+                },
+                {
+                  "name": "index.wxml",
+                  "size": 1.6,
+                  "absolutePath": "pages/index/index.wxml"
+                },
+                {
+                  "name": "index.json",
+                  "size": 0.03,
+                  "absolutePath": "pages/index/index.json"
+                }
+              ]
+            },
+            {
+              "name": "components",
+              "size": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "subpackages": {
+      "name": "subpackages",
+      "size": 0,
+      "children": []
+    }
+  }
+}
