@@ -1,2 +1,5 @@
 <!--index.wxml-->
-<view></view>
+<view class="container">
+  <common-card></common-card>
+  <footer-card></footer-card>
+</view>

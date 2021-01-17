@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "common-card": "./../../components/commonCard/commonCard",
-    "footer-card": "./../../components/footerCard/footerCard"
+    "footer-card": "./../../components/footerCard/footerCard",
+    "mp-tabs": "@miniprogram-component-plus/tabs"
   },
   "navigationBarBackgroundColor": "#000",
   "navigationBarTextStyle": "white",

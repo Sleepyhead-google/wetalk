@@ -1,0 +1,11 @@
+<video
+  id="video"
+  class="video-container"
+  src="http://vjs.zencdn.net/v/oceans.mp4" 
+  autoplay="{{true}}"
+  direction="0"
+  enable-danmu="{{true}}"
+  loop="{{true}}"
+  object-fit="cover"
+  style="width: {{sysInfo.screenWidth}}px; height: {{sysInfo.screenHeight}}px;"
+  ></video>

@@ -1,14 +1,50 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/explore/index",
+    "pages/me/index",
+    "pages/like/index",
+    "pages/index/index",
+    "pages/find/index"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#000",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "找对象",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTextStyle": "@navTxtStyle"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "darkmode": true,
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/explore/index",
+        "text": "遇见"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "text": "寻找"
+      },
+      {
+        "pagePath": "pages/like/index",
+        "text": "喜欢"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我"
+      }
+    ],
+    "backgroundColor": "#000",
+    "selectedColor": "#fff",
+    "color": "#939393",
+    "borderStyle": "black"
+  },
+  "usingComponents": {},
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "themeLocation": "theme.json"
 }

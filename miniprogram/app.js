@@ -1,4 +1,10 @@
 //app.js
+
+const { promisifyAll, promisify } =  require('miniprogram-api-promise');
+const wxp = {}
+// promisify all wx's api
+promisifyAll(wx, wxp)
+
 App({
   onLaunch: function () {
     if (!wx.cloud) {
@@ -14,6 +20,12 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData = {
+    }
+
+    wxp.getSystemInfo().then((data) => {
+      console.log(data, "v");
+      this.globalData.systemInfo = data
+    });
   }
 })
